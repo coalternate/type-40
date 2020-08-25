@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.metadata = {
-    'plugin_type' => 'theme'
+    'plugin_type' => 'theme',
     'github_repo' => 'ssh://github.com/coalternate/type-40'
   }
 end
