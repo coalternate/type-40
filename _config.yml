@@ -1,0 +1,11 @@
+title: 'Type 40'
+author:
+  name: Kai Smith
+  email: coalternate@gmail.com
+description: >
+  Temporary site description. Subject to change at any time.
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag

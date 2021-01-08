@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name     = 'type-40'
-  spec.version  = '0.0.1'
+  spec.version  = '0.0.2'
   spec.summary  = 'A custom built Jekyll theme.'
   spec.license  = 'MIT'
 
@@ -20,4 +20,11 @@ Gem::Specification.new do |spec|
     'plugin_type' => 'theme',
     'github_repo' => 'ssh://github.com/coalternate/type-40'
   }
+  
+  spec.add_runtime_dependency 'jekyll', '>= 4.1'
+  spec.add_runtime_dependency 'jekyll-sitemap', '>= 1.4'
+  spec.add_runtime_dependency 'jekyll-feed', '>= 0.15'
+  spec.add_runtime_dependency 'jekyll-seo-tag', '>= 2.6'
+  
+  spec.add_development_dependency 'bundler', '>= 2.1'
 end
