@@ -21,10 +21,11 @@ Gem::Specification.new do |spec|
     'github_repo' => 'ssh://github.com/coalternate/type-40'
   }
   
-  spec.add_runtime_dependency 'jekyll', '>= 4.1'
-  spec.add_runtime_dependency 'jekyll-sitemap', '>= 1.4'
-  spec.add_runtime_dependency 'jekyll-feed', '>= 0.15'
-  spec.add_runtime_dependency 'jekyll-seo-tag', '>= 2.7'
+  spec.add_runtime_dependency 'jekyll', '~> 4.1'
+  spec.add_runtime_dependency 'jekyll-sitemap', '~> 1.4'
+  spec.add_runtime_dependency 'jekyll-feed', '~> 0.15'
+  spec.add_runtime_dependency 'jekyll-seo-tag', '~> 2.7'
   
-  spec.add_development_dependency 'bundler', '>= 2.2'
+  spec.add_development_dependency 'bundler', '~> 2.2'
+  spec.add_development_dependency 'webrick', '~> 1.7'
 end
