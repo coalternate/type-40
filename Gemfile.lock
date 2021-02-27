@@ -2,10 +2,10 @@ PATH
   remote: .
   specs:
     type-40 (0.0.2)
-      jekyll (>= 4.1)
-      jekyll-feed (>= 0.15)
-      jekyll-seo-tag (>= 2.7)
-      jekyll-sitemap (>= 1.4)
+      jekyll (~> 4.1)
+      jekyll-feed (~> 0.15)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
 
 GEM
   remote: https://rubygems.org/
@@ -77,7 +77,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (>= 2.2)
+  bundler (~> 2.2)
   type-40!
   webrick (~> 1.7)
 
